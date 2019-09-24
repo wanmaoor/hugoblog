@@ -3,15 +3,26 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://wanmaoor.github.io/hugoblog/posts/my-first-post/</loc>
+    <lastmod>2019-09-24T21:58:23+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://wanmaoor.github.io/hugoblog/posts/</loc>
+    <lastmod>2019-09-24T21:58:23+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://wanmaoor.github.io/hugoblog/</loc>
+    <lastmod>2019-09-24T21:58:23+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://wanmaoor.github.io/hugoblog/categories/</loc>
   </url>
   
   <url>
     <loc>https://wanmaoor.github.io/hugoblog/tags/</loc>
-  </url>
-  
-  <url>
-    <loc>https://wanmaoor.github.io/hugoblog/</loc>
   </url>
   
 </urlset>
