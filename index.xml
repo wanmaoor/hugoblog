@@ -6,18 +6,26 @@
     <description>Recent content on 顶顶顶</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 24 Sep 2019 21:58:23 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 25 Sep 2019 09:25:43 +0800</lastBuildDate>
     
 	<atom:link href="https://wanmaoor.github.io/hugoblog/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>My First Post</title>
-      <link>https://wanmaoor.github.io/hugoblog/posts/my-first-post/</link>
-      <pubDate>Tue, 24 Sep 2019 21:58:23 +0800</pubDate>
+      <title>如何用 Hugo 搭建个人博客</title>
+      <link>https://wanmaoor.github.io/hugoblog/posts/%E5%A6%82%E4%BD%95%E7%94%A8-hugo-%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</link>
+      <pubDate>Wed, 25 Sep 2019 09:25:43 +0800</pubDate>
       
-      <guid>https://wanmaoor.github.io/hugoblog/posts/my-first-post/</guid>
-      <description>hello world</description>
+      <guid>https://wanmaoor.github.io/hugoblog/posts/%E5%A6%82%E4%BD%95%E7%94%A8-hugo-%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</guid>
+      <description>1. 下载 hugo 点击链接下载
+下载完成后解压, 解压的路径依你的喜好选择.
+2. 配置环境变量 在Path里添加 hugo 的路径(解压的地方): 在命令行输入hugo version,如果显示了版本号等信息就说明安装成功了
+3. 接下来按照官方文档的教程做即可 3.1 创建站点 hugo new site [你的站点名字]
+3.2 安装一个不丑的主题 cd [你的站点名字] git clone [主题链接] themes/[主题名] // 如： git clone https://github.com/budparr/gohugo-theme-ananke.git themes/ananke echo &#39;theme = &amp;quot;ananke&amp;quot;&#39; &amp;gt;&amp;gt; config.toml  3.3 写下第一个博客 hugo new posts/其实这不是我的第一个博客.md
+随后在编辑器里按照 markdown 语法写博客就行
+3.4 预览一下, 写得怎样 hugo server -D
+3.5 生成静态文件 运行 hugo 命令
+4. 部署 我选择 GitHub Page 来托管我的博客网站, So let&amp;rsquo;s getting started with it.</description>
     </item>
     
   </channel>
